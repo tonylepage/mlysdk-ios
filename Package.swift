@@ -18,10 +18,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/JacobHearst/GCDWebServer", .upToNextMajor(from: "3.5.4")),
         .package(url: "https://github.com/muxinc/mux-stats-sdk-avplayer.git", .upToNextMajor(from: "3.1.0")),
-        .package(url: "https://github.com/getsentry/sentry-cocoa", .upToNextMajor(from: "7.31.3")),
-        .package(url: "https://github.com/webrtc-sdk/Specs", .upToNextMajor(from: "104.5112.16")),
-        .package(url: "https://github.com/centrifugal/centrifuge-swift", .upToNextMajor(from: "0.5.5")),
-        .package(url: "https://github.com/apple/swift-protobuf", .upToNextMajor(from: "1.21.0"))
+        .package(url: "https://github.com/getsentry/sentry-cocoa", .upToNextMajor(from: "7.31.3"))
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.

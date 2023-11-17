@@ -13,7 +13,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "MLYSDK",
-            targets: ["MLYSDK", "MUXSDKStats"]),
+            targets: ["MLYSDK"]),
     ],
     dependencies: [
         .package(url: "https://github.com/yene/GCDWebServer", .upToNextMajor(from: "3.5.4")),
